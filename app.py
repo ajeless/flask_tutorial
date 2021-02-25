@@ -12,7 +12,7 @@ def product_page(product_id):
     return render_template('product-page.html', product_id=product_id)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(port=5000)
 
 #    59  gcloud compute forwarding-rules list
 #    60  sudo apt install authbind
